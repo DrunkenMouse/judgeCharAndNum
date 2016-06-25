@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169F77711D1E203C007EA138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169F77701D1E203C007EA138 /* main.m */; };
+		169F77741D1E203C007EA138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 169F77731D1E203C007EA138 /* AppDelegate.m */; };
+		169F77771D1E203C007EA138 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169F77761D1E203C007EA138 /* ViewController.m */; };
+		169F777A1D1E203C007EA138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169F77781D1E203C007EA138 /* Main.storyboard */; };
+		169F777C1D1E203C007EA138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169F777B1D1E203C007EA138 /* Assets.xcassets */; };
+		169F777F1D1E203C007EA138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169F777D1D1E203C007EA138 /* LaunchScreen.storyboard */; };
+		169F778A1D1E203C007EA138 /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169F77891D1E203C007EA138 /* ____________Tests.m */; };
+		169F77951D1E203C007EA138 /* ____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169F77941D1E203C007EA138 /* ____________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169F77861D1E203C007EA138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169F77641D1E203C007EA138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169F776B1D1E203C007EA138;
+			remoteInfo = "正则表达式包含字符和数字";
+		};
+		169F77911D1E203C007EA138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169F77641D1E203C007EA138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169F776B1D1E203C007EA138;
+			remoteInfo = "正则表达式包含字符和数字";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		169F776C1D1E203C007EA138 /* 正则表达式包含字符和数字.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "正则表达式包含字符和数字.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169F77701D1E203C007EA138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		169F77721D1E203C007EA138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		169F77731D1E203C007EA138 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		169F77751D1E203C007EA138 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		169F77761D1E203C007EA138 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		169F77791D1E203C007EA138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		169F777B1D1E203C007EA138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		169F777E1D1E203C007EA138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		169F77801D1E203C007EA138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169F77851D1E203C007EA138 /* 正则表达式包含字符和数字Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "正则表达式包含字符和数字Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169F77891D1E203C007EA138 /* ____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________Tests.m"; sourceTree = "<group>"; };
+		169F778B1D1E203C007EA138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169F77901D1E203C007EA138 /* 正则表达式包含字符和数字UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "正则表达式包含字符和数字UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		169F77941D1E203C007EA138 /* ____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________UITests.m"; sourceTree = "<group>"; };
+		169F77961D1E203C007EA138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169F77691D1E203C007EA138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169F77821D1E203C007EA138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169F778D1D1E203C007EA138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169F77631D1E203C007EA138 = {
+			isa = PBXGroup;
+			children = (
+				169F776E1D1E203C007EA138 /* 正则表达式包含字符和数字 */,
+				169F77881D1E203C007EA138 /* 正则表达式包含字符和数字Tests */,
+				169F77931D1E203C007EA138 /* 正则表达式包含字符和数字UITests */,
+				169F776D1D1E203C007EA138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169F776D1D1E203C007EA138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169F776C1D1E203C007EA138 /* 正则表达式包含字符和数字.app */,
+				169F77851D1E203C007EA138 /* 正则表达式包含字符和数字Tests.xctest */,
+				169F77901D1E203C007EA138 /* 正则表达式包含字符和数字UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169F776E1D1E203C007EA138 /* 正则表达式包含字符和数字 */ = {
+			isa = PBXGroup;
+			children = (
+				169F77721D1E203C007EA138 /* AppDelegate.h */,
+				169F77731D1E203C007EA138 /* AppDelegate.m */,
+				169F77751D1E203C007EA138 /* ViewController.h */,
+				169F77761D1E203C007EA138 /* ViewController.m */,
+				169F77781D1E203C007EA138 /* Main.storyboard */,
+				169F777B1D1E203C007EA138 /* Assets.xcassets */,
+				169F777D1D1E203C007EA138 /* LaunchScreen.storyboard */,
+				169F77801D1E203C007EA138 /* Info.plist */,
+				169F776F1D1E203C007EA138 /* Supporting Files */,
+			);
+			path = "正则表达式包含字符和数字";
+			sourceTree = "<group>";
+		};
+		169F776F1D1E203C007EA138 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				169F77701D1E203C007EA138 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		169F77881D1E203C007EA138 /* 正则表达式包含字符和数字Tests */ = {
+			isa = PBXGroup;
+			children = (
+				169F77891D1E203C007EA138 /* ____________Tests.m */,
+				169F778B1D1E203C007EA138 /* Info.plist */,
+			);
+			path = "正则表达式包含字符和数字Tests";
+			sourceTree = "<group>";
+		};
+		169F77931D1E203C007EA138 /* 正则表达式包含字符和数字UITests */ = {
+			isa = PBXGroup;
+			children = (
+				169F77941D1E203C007EA138 /* ____________UITests.m */,
+				169F77961D1E203C007EA138 /* Info.plist */,
+			);
+			path = "正则表达式包含字符和数字UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169F776B1D1E203C007EA138 /* 正则表达式包含字符和数字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169F77991D1E203C007EA138 /* Build configuration list for PBXNativeTarget "正则表达式包含字符和数字" */;
+			buildPhases = (
+				169F77681D1E203C007EA138 /* Sources */,
+				169F77691D1E203C007EA138 /* Frameworks */,
+				169F776A1D1E203C007EA138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "正则表达式包含字符和数字";
+			productName = "正则表达式包含字符和数字";
+			productReference = 169F776C1D1E203C007EA138 /* 正则表达式包含字符和数字.app */;
+			productType = "com.apple.product-type.application";
+		};
+		169F77841D1E203C007EA138 /* 正则表达式包含字符和数字Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169F779C1D1E203C007EA138 /* Build configuration list for PBXNativeTarget "正则表达式包含字符和数字Tests" */;
+			buildPhases = (
+				169F77811D1E203C007EA138 /* Sources */,
+				169F77821D1E203C007EA138 /* Frameworks */,
+				169F77831D1E203C007EA138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169F77871D1E203C007EA138 /* PBXTargetDependency */,
+			);
+			name = "正则表达式包含字符和数字Tests";
+			productName = "正则表达式包含字符和数字Tests";
+			productReference = 169F77851D1E203C007EA138 /* 正则表达式包含字符和数字Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		169F778F1D1E203C007EA138 /* 正则表达式包含字符和数字UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169F779F1D1E203C007EA138 /* Build configuration list for PBXNativeTarget "正则表达式包含字符和数字UITests" */;
+			buildPhases = (
+				169F778C1D1E203C007EA138 /* Sources */,
+				169F778D1D1E203C007EA138 /* Frameworks */,
+				169F778E1D1E203C007EA138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169F77921D1E203C007EA138 /* PBXTargetDependency */,
+			);
+			name = "正则表达式包含字符和数字UITests";
+			productName = "正则表达式包含字符和数字UITests";
+			productReference = 169F77901D1E203C007EA138 /* 正则表达式包含字符和数字UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169F77641D1E203C007EA138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王奥东";
+				TargetAttributes = {
+					169F776B1D1E203C007EA138 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+					};
+					169F77841D1E203C007EA138 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 169F776B1D1E203C007EA138;
+					};
+					169F778F1D1E203C007EA138 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 169F776B1D1E203C007EA138;
+					};
+				};
+			};
+			buildConfigurationList = 169F77671D1E203C007EA138 /* Build configuration list for PBXProject "正则表达式包含字符和数字" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169F77631D1E203C007EA138;
+			productRefGroup = 169F776D1D1E203C007EA138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169F776B1D1E203C007EA138 /* 正则表达式包含字符和数字 */,
+				169F77841D1E203C007EA138 /* 正则表达式包含字符和数字Tests */,
+				169F778F1D1E203C007EA138 /* 正则表达式包含字符和数字UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		169F776A1D1E203C007EA138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169F777F1D1E203C007EA138 /* LaunchScreen.storyboard in Resources */,
+				169F777C1D1E203C007EA138 /* Assets.xcassets in Resources */,
+				169F777A1D1E203C007EA138 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169F77831D1E203C007EA138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169F778E1D1E203C007EA138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169F77681D1E203C007EA138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169F77771D1E203C007EA138 /* ViewController.m in Sources */,
+				169F77741D1E203C007EA138 /* AppDelegate.m in Sources */,
+				169F77711D1E203C007EA138 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169F77811D1E203C007EA138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169F778A1D1E203C007EA138 /* ____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169F778C1D1E203C007EA138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169F77951D1E203C007EA138 /* ____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		169F77871D1E203C007EA138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169F776B1D1E203C007EA138 /* 正则表达式包含字符和数字 */;
+			targetProxy = 169F77861D1E203C007EA138 /* PBXContainerItemProxy */;
+		};
+		169F77921D1E203C007EA138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169F776B1D1E203C007EA138 /* 正则表达式包含字符和数字 */;
+			targetProxy = 169F77911D1E203C007EA138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		169F77781D1E203C007EA138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169F77791D1E203C007EA138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		169F777D1D1E203C007EA138 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169F777E1D1E203C007EA138 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		169F77971D1E203C007EA138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		169F77981D1E203C007EA138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		169F779A1D1E203C007EA138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "正则表达式包含字符和数字/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		169F779B1D1E203C007EA138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "正则表达式包含字符和数字/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		169F779D1D1E203C007EA138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "正则表达式包含字符和数字Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/正则表达式包含字符和数字.app/正则表达式包含字符和数字";
+			};
+			name = Debug;
+		};
+		169F779E1D1E203C007EA138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "正则表达式包含字符和数字Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/正则表达式包含字符和数字.app/正则表达式包含字符和数字";
+			};
+			name = Release;
+		};
+		169F77A01D1E203C007EA138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "正则表达式包含字符和数字UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "正则表达式包含字符和数字";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		169F77A11D1E203C007EA138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "正则表达式包含字符和数字UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "正则表达式包含字符和数字";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169F77671D1E203C007EA138 /* Build configuration list for PBXProject "正则表达式包含字符和数字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169F77971D1E203C007EA138 /* Debug */,
+				169F77981D1E203C007EA138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169F77991D1E203C007EA138 /* Build configuration list for PBXNativeTarget "正则表达式包含字符和数字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169F779A1D1E203C007EA138 /* Debug */,
+				169F779B1D1E203C007EA138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		169F779C1D1E203C007EA138 /* Build configuration list for PBXNativeTarget "正则表达式包含字符和数字Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169F779D1D1E203C007EA138 /* Debug */,
+				169F779E1D1E203C007EA138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		169F779F1D1E203C007EA138 /* Build configuration list for PBXNativeTarget "正则表达式包含字符和数字UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169F77A01D1E203C007EA138 /* Debug */,
+				169F77A11D1E203C007EA138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169F77641D1E203C007EA138 /* Project object */;
+}
