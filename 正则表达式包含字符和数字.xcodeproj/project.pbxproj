@@ -15,6 +15,8 @@
 		169F777F1D1E203C007EA138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169F777D1D1E203C007EA138 /* LaunchScreen.storyboard */; };
 		169F778A1D1E203C007EA138 /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169F77891D1E203C007EA138 /* ____________Tests.m */; };
 		169F77951D1E203C007EA138 /* ____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169F77941D1E203C007EA138 /* ____________UITests.m */; };
+		169F77A51D1E2723007EA138 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 169F77A41D1E2723007EA138 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		169F77A71D1E28EC007EA138 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 169F77A61D1E28EC007EA138 /* libicucore.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		169F77901D1E203C007EA138 /* 正则表达式包含字符和数字UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "正则表达式包含字符和数字UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		169F77941D1E203C007EA138 /* ____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________UITests.m"; sourceTree = "<group>"; };
 		169F77961D1E203C007EA138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169F77A31D1E2723007EA138 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		169F77A41D1E2723007EA138 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		169F77A61D1E28EC007EA138 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				169F77A71D1E28EC007EA138 /* libicucore.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 		169F77631D1E203C007EA138 = {
 			isa = PBXGroup;
 			children = (
+				169F77A61D1E28EC007EA138 /* libicucore.tbd */,
 				169F776E1D1E203C007EA138 /* 正则表达式包含字符和数字 */,
 				169F77881D1E203C007EA138 /* 正则表达式包含字符和数字Tests */,
 				169F77931D1E203C007EA138 /* 正则表达式包含字符和数字UITests */,
@@ -101,6 +108,7 @@
 		169F776E1D1E203C007EA138 /* 正则表达式包含字符和数字 */ = {
 			isa = PBXGroup;
 			children = (
+				169F77A21D1E2723007EA138 /* RegexKitLite */,
 				169F77721D1E203C007EA138 /* AppDelegate.h */,
 				169F77731D1E203C007EA138 /* AppDelegate.m */,
 				169F77751D1E203C007EA138 /* ViewController.h */,
@@ -138,6 +146,15 @@
 				169F77961D1E203C007EA138 /* Info.plist */,
 			);
 			path = "正则表达式包含字符和数字UITests";
+			sourceTree = "<group>";
+		};
+		169F77A21D1E2723007EA138 /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				169F77A31D1E2723007EA138 /* RegexKitLite.h */,
+				169F77A41D1E2723007EA138 /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +292,7 @@
 			files = (
 				169F77771D1E203C007EA138 /* ViewController.m in Sources */,
 				169F77741D1E203C007EA138 /* AppDelegate.m in Sources */,
+				169F77A51D1E2723007EA138 /* RegexKitLite.m in Sources */,
 				169F77711D1E203C007EA138 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "正则表达式包含字符和数字/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "正则表达式包含字符和数字/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
